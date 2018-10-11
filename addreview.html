@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost/addreview.html -->
+<html lang="en" class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body background="./images/6.jpg" data-gr-c-s-loaded="true">﻿  
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://localhost/favicon.ico">
+
+    <title>Mountain Homestays</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./images/bootstrap.min.css" rel="stylesheet">
+	<link href="./images/Site.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./images/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./images/navbar.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./images/ie-emulation-modes-warning.js.download"></script>
+
+    <style>
+	.gallery {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-width: 33%;
+        -moz-column-width: 33%;
+        column-width: 33%;
+        }
+
+        .gallery .pics {
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+        }
+
+        .gallery .animation {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        }
+
+        @media (max-width: 450px) {
+        .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+        }
+        }
+
+        @media (max-width: 400px) {
+        .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+        }
+        }
+		
+		@media (max-width: 767px) {
+    .fullpage {
+        display:none;
+    }
+    .phonesize{
+        display:block;
+    }
+}
+
+
+@media (min-width: 767px) {
+    .fullpage{
+        display:block;
+    }
+    .phonesize{
+        display:none;
+    }
+}
+
+.logo {
+    height: 53px;
+    width: 137px;
+	text-align:center;
+}
+	</style>
+  
+
+  
+
+      <div class="container">
+          <!-- Static navbar -->
+		  			
+          <nav class="navbar navbar-default">
+					<div id="navbar">
+                      <ul class="nav navbar-nav">
+						<li>
+						<div style="display:block;margin:0 auto;"><h3 style="text-align:center;"><img src="./images/Logo.png" class="logo"></h3></div>
+						<a href="http://localhost/index.html" style="color:#000000;"><h3 style="text-align:center;">Mountain Homestays</h3></a>
+						</li>
+					  <li style="background-color:#ffffff;margin:0px 10px 0px 10px;"><a href="http://localhost/index.html" style="color:#4b9242; "><strong>Village Tsogsti</strong></a></li>
+					  <li style="background-color:#ffffff;margin:0px 10px 0px 10px;"><a href="http://localhost/story.html" style="color:#4b9242;"><strong>Our Story</strong></a></li>
+					  <li style="background-color:#ffffff;margin:0px 10px 0px 10px;"><a href="http://localhost/resources.html" style="color:#4b9242;"><strong>Resources</strong></a></li>
+					  <li style="background-color:#ffffff;margin:0px 10px 0px 10px;"><a href="http://localhost/ladakh.html" style="color:#4b9242;"><strong>Ladakh Wiki</strong></a></li>
+					  					  
+						  <li style="background-color:#4b9242;margin:0px 10px 0px 10px;"><a href="http://localhost/talkie.html" style="color:#ffffff;"><strong>Wifi-Talkie</strong></a></li>
+                      </ul>
+
+                  </div>
+          </nav><div class="col-sm-12">
+    <div class="col-sm-12">
+	<div class="col-sm-12">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+        <h2 style="text-align:left;color:#4b9242">	Tsogsty - Homestay Review</h2>
+		<p style="text-align:left;color:#4b9242;font-family:Calibri;font-size:16px">*We'll send a 10% discount coupon on your email</p>
+        <hr>
+        <div class="col-md-9">
+            <form action="http://localhost/savereview.html" method="post">
+                <div class="row">
+                    <label class="control-label col-md-4 text-prop">Your name*</label>
+                    <div class="col-md-5">
+                        <input name="name" class="form-control text-box single-line" type="text" maxlength="50" value="">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="control-label col-md-4 text-prop">Email*</label>
+                    <div class="col-md-5">
+                        <input name="email" class="form-control text-box single-line" type="text" maxlength="50" value="">
+                    </div>
+                </div>
+				<p style="text-align:left;font-family:Calibri;font-size:20px">
+					
+					<br><strong>Rate your stay </strong></p>
+					<p style="text-align:left;font-family:Calibri;font-size:16px">
+					   (01- Very bad, 02- Bad, 03- Good, 04- Very Good, 05- Great)  
+                    </p>
+                <div class="row">
+                    <label class="control-label col-md-4 text-prop">Room quality*</label>
+                    <div class="col-md-1"><input type="radio" name="room" value="01"> 01 </div>
+                    <div class="col-md-1"><input type="radio" name="room" value="02"> 02 </div>
+                    <div class="col-md-1"><input type="radio" name="room" value="03"> 03 </div>
+                    <div class="col-md-1"><input type="radio" name="room" value="04"> 04 </div>
+                    <div class="col-md-1"><input type="radio" name="room" value="05"> 05 </div>
+                </div>
+                <div class="row">
+                    <label class="control-label col-md-4 text-prop">Food quality*</label>
+                    <div class="col-md-1"><input type="radio" name="food" value="01"> 01 </div>
+                    <div class="col-md-1"><input type="radio" name="food" value="02"> 02 </div>
+                    <div class="col-md-1"><input type="radio" name="food" value="03"> 03 </div>
+                    <div class="col-md-1"><input type="radio" name="food" value="04"> 04 </div>
+                    <div class="col-md-1"><input type="radio" name="food" value="05"> 05 </div>
+                </div>
+                <div class="row">
+                    <label class="control-label col-md-4 text-prop">Cleanliness*</label>
+                    <div class="col-md-1"><input type="radio" name="cleanliness" value="01"> 01 </div>
+                    <div class="col-md-1"><input type="radio" name="cleanliness" value="02"> 02 </div>
+                    <div class="col-md-1"><input type="radio" name="cleanliness" value="03"> 03 </div>
+                    <div class="col-md-1"><input type="radio" name="cleanliness" value="04"> 04 </div>
+                    <div class="col-md-1"><input type="radio" name="cleanliness" value="05"> 05 </div>
+                </div>
+                <div class="row">
+                    <label class="control-label col-md-4 text-prop">Hospitality*</label>
+                    <div class="col-md-1"><input type="radio" name="hospitality" value="01"> 01 </div>
+                    <div class="col-md-1"><input type="radio" name="hospitality" value="02"> 02 </div>
+                    <div class="col-md-1"><input type="radio" name="hospitality" value="03"> 03 </div>
+                    <div class="col-md-1"><input type="radio" name="hospitality" value="04"> 04 </div>
+                    <div class="col-md-1"><input type="radio" name="hospitality" value="05"> 05 </div>
+                </div>
+                <div class="row">
+				<div class="col-md-12">
+                    <p style="text-align:left;font-family:Calibri;font-size:20px">
+					
+					<br><strong>Write your review </strong></p>
+				        <textarea name="review" class="form-control text-box" maxlength="400" rows="5" id="review"></textarea>
+                    
+                </div>
+				</div>
+				<hr>
+				<div class="row">
+                    <div class="col-md-4">
+					    <label class="control-label col-md-4 text-prop">Status*</label>
+                        
+                    </div>
+					<div class="col-md-5">
+					    
+                        <input name="status" class="form-control text-box single-line" type="text" maxlength="50" value="verify">
+                    </div>
+                </div>
+                <br><input type="submit">
+        </form></div>
+
+        
+    </div></div></div></div></div>
+</div>
+
+﻿<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./images/jquery.min.js.download"></script>
+<script>
+  window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js">
+    <\/script>')
+  </script>
+  <script src="./images/bootstrap.min.js.download"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./images/ie10-viewport-bug-workaround.js.download"></script>
+  
+</div></div></body></html>
